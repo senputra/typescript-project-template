@@ -1,0 +1,20 @@
+{
+  "name": "typescripttest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "run": "tsc && node dist/index.js",
+    "serve": "nodemon",
+    "watch": "watch \"npm run run\" src --ignoreDotFiles --interval=1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.3",
+    "prettier": "^2.0.5",
+    "typescript": "^3.8.3",
+    "watch": "^1.0.2"
+  }
+}
